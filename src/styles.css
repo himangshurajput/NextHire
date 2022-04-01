@@ -1,0 +1,65 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~animate.css/animate.css";
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --clr-text-dark: #0B0B0B;
+    --clr-text-light: #6B6B6B;
+    --clr-bg-light: #fff;
+    --clr-bg-dark: #F9F9F9;
+    --clr-primary: #2677F1;
+    --clr-accent: #FA478B;
+    --clr-purple: #CF53F5;
+    --clr-bg-footer: #1A1A1B;
+    --clr-footertext-light: #737B7D;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300&display=swap');
+@font-face {
+    font-family: 'Segoe ui';
+    src: url('/src/assets/fonts/SEGOEUI.TTF')  format('truetype');
+    }
+html{
+    width: 100%;
+}
+body{
+    background-color: var(--clr-bg-light);
+    color: var(--clr-text-dark);
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+    padding-top: 0.5rem;
+}
+ul{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none !important;
+}
+button{
+    padding: 0;
+    border: none;
+    background: none;
+    letter-spacing: 0.2em;
+    background-color: var(--clr-primary);
+}
+h1{
+    font-size: 26px;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

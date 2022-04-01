@@ -1,0 +1,31 @@
+<div class="nav">
+    <div id="brand" class="d-flex flex-row justify-content-center align-items-center">
+        <img src="assets/images/logo.png" alt="logo" id="logo">
+        <h1 id="brandname">NextHire</h1>
+    </div>
+    <div id="navstart" [@navslide]="state" class="animated__animate animate__bounce">
+        <div class="navitems">
+            <a routerLink="/" class="navlinks">Home</a>
+        </div>
+        <div class="navitems">
+            <a routerLink="/requestdemo" class="navlinks">Contact</a>
+        </div>
+        <div class="navitems">
+            <a routerLink="about" class="navlinks">About</a>
+        </div>
+        <!-- <div class="navitems">
+            <button class="navlinks" id="navbutton">Jobs</button>
+        </div> -->
+    </div>
+    <div class="navitems" id="ham">
+        <button [ngClass]="{
+            'hamburger': check || !check,
+            'hamburger--squeeze': check,
+            'is-active': check
+          }" type="button" (click)="toggleMenu()">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+        </button>  
+    </div>
+</div>

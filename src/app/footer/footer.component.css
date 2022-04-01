@@ -1,0 +1,103 @@
+/* <--FOOTER ONE START--> */
+#footer-1{
+    padding:1rem 2rem;
+    text-align: center;
+    background-color: var(--clr-bg-footer);
+}
+#footerhead_1,#footerpara_1{
+    font-family: 'Montserrat';
+    letter-spacing: 0.1rem;
+    line-height: 150%;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+#footerhead_1{
+    font-size: 26px;
+    font-weight: 600;
+}
+#footerpara_1{
+    font-size:16px;
+    font-weight:400;
+    margin-bottom: 2.5rem;
+}
+#inputcontainer{
+    display:grid;
+    grid-template-columns: 70% 30%;
+    grid-auto-flow: column;
+    gap: 1rem;
+    height: 42px;
+    max-height: 42px;
+    max-width: 440px;
+    margin: 0 auto;
+}
+#inputcontainer input{
+    border-radius: 5px;
+}
+#inputcontainer input::placeholder{
+    color: #737B7D;
+    padding-left: 0.5rem;
+}
+#request{
+    border-radius: 5px;
+    font-size: 18px;
+    padding:0.5em 1em;
+}
+/* <--FOOTER ONE END--> */
+/* <--FOOTER TWO START--> */
+#footer-2{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #f5f5f5;
+    background-color: var(--clr-bg-footer);
+    
+}
+#footer-2 #iconscontainer h1{
+    font-size: 18px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.icons{
+    width: 35px;
+    height: 35px;
+    transition-property: transform;
+    transition-duration: 700;
+    transition-timing-function: ease-in-out;
+
+}
+.icons:hover{
+    transform: scale(1.1);
+}
+.icons:active{
+    transform: scale(0.95);
+}
+#facebook,#instagram,#twitter{
+    margin-right: 0.2rem;
+}
+#resources{
+    align-self: end;
+}
+#resources h1{
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+.resourcespara{
+    color: var(--clr-text-light);
+}
+.resourcespara:hover{
+    color: #f5f5f5;
+    transition: color ease-in-out 250ms;
+}
+/* <--FOOTER TWO END--> */
+#footer-3{
+    background-color: #000000;
+    color: var(--clr-text-light);
+    min-height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#copyright{
+    font-size: 16px;
+}

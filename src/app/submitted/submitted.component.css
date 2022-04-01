@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+section{
+    height: 70vh;
+    width: 100vw;
+}
+.submit-hero{
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+}
+h1{
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    padding: 1em 1em;
+    letter-spacing: 0.1em;
+    color:#fff;
+}
+p{
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: normal;
+    letter-spacing: 0.235em;
+    padding: 1em 1em;
+}
+.button{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #fff;
+    color: #000;
+    width: 160px;
+    padding: 1em 1em;
+    letter-spacing: 0.235em;
+    border-radius: 5px;
+    margin-left: 1em;
+    margin-top:1em;
+}
+.button:hover{
+    background-color: #000000;
+    color: #fff;
+}
